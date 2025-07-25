@@ -4,48 +4,18 @@
 ![Go Version](https://img.shields.io/badge/Go-1.24-blue)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-这是一个用Go语言编写的雷神加速器自动暂停工具，通过GitHub Actions自动运行，无需本地环境配置。
+这是一个用Go语言编写的雷神加速器（NN加速器）自动暂停工具，通过GitHub Actions自动运行，无需本地环境配置。
 
 ## 🚀 快速开始
 
 1. **Fork本项目** → 2. **获取TOKEN** → 3. **配置Secrets** → 4. **运行Actions** ✅
-
-> 📋 **详细流程图**: 查看 [WORKFLOW.md](WORKFLOW.md) 获取完整的使用流程图和故障排除指南
-
-## 功能特性
-
-- 🌀 自动暂停雷神加速器
-- 🔄 支持重复操作检测（错误码400803）
-- 🎯 简洁的命令行输出
-- 📦 模块化代码结构
-- ⚡ 高性能Go语言实现
-
-## 项目结构
-
-```
-leishen-auto/
-├── api/           # API客户端包
-│   └── client.go  # 雷神API客户端实现
-├── config/        # 配置包
-│   └── config.go  # 配置加载和管理
-├── main.go        # 主程序入口
-├── go.mod         # Go模块文件
-└── README.md      # 项目说明文档
-```
-
-## 环境要求
-
-- Go 1.19 或更高版本
-- 有效的雷神加速器账户令牌
-
-## 通过GitHub Actions使用（推荐）
 
 ### 1. Fork项目
 
 点击右上角的 **Fork** 按钮，将项目fork到你的GitHub账户
 
 ### 2. 获取雷神加速器TOKEN
-![image](https://i.111666.best/image/rBlZuZYRzADFLg6RHjQqmP.png)
+![image](https://www.helloimg.com/i/2025/07/25/6883177647e05.png)
 
 **快速步骤**：
 1. **登录雷神加速器官网**: https://vip.leigod.com/user.html
@@ -124,6 +94,35 @@ export TOKEN="your_account_token_here"
 ```bash
 go run main.go
 ```
+
+
+## 功能特性
+
+- 🌀 自动暂停雷神加速器
+- 🔄 支持重复操作检测（错误码400803）
+- 🎯 简洁的命令行输出
+- 📦 模块化代码结构
+- ⚡ 高性能Go语言实现
+
+## 项目结构
+
+```
+leishen-auto/
+├── api/           # API客户端包
+│   └── client.go  # 雷神API客户端实现
+├── config/        # 配置包
+│   └── config.go  # 配置加载和管理
+├── main.go        # 主程序入口
+├── go.mod         # Go模块文件
+└── README.md      # 项目说明文档
+```
+
+## 环境要求
+
+- Go 1.19 或更高版本
+- 有效的雷神加速器账户令牌
+
+## 通过GitHub Actions使用（推荐）
 
 ## 常见问题
 
