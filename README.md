@@ -15,7 +15,7 @@
 点击右上角的 **Fork** 按钮，将项目fork到你的GitHub账户
 
 ### 2. 获取雷神加速器TOKEN
-![image](https://www.helloimg.com/i/2025/07/25/6883177647e05.png)
+![image](config/get-token.png)
 
 **快速步骤**：
 1. **登录雷神加速器官网**: https://vip.leigod.com/user.html
