@@ -2,8 +2,8 @@ name: Auto Pause Leishen
 
 on:
   schedule:
-    # 每天凌晨1点自动暂停 (UTC时间17:00 = 北京时间1:00)
-    - cron: '0 17 * * *'
+    # 自动暂停时间 (UTC时间20:00 = 北京时间4:00)
+    - cron: '0 20 * * *'
   workflow_dispatch: # 允许手动触发
 
 jobs:
